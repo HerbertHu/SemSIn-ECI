@@ -1,10 +1,10 @@
-# SemSin-ECI
+# SemSIn-ECI
 
 Source code for ACL 2023 paper "**Semantic Structure Enhanced Event Causality Identification**"
 
 ## Requirements
 
-It is recommended to use a virtual environment to run SemSin-ECI.
+It is recommended to use a virtual environment to run SemSIn-ECI.
 
 ```shell
 conda create -n semsin-eci python=3.8.12
