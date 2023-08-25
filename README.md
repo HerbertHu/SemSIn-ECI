@@ -25,7 +25,7 @@ conda activate semsin-eci
 pip install -r requirements.txt
 ```
 
-dgl install
+dgl install (https://www.dgl.ai/)
 
 - dgl == 1.1.0+cu117
 

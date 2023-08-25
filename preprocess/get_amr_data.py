@@ -122,7 +122,7 @@ if __name__ == "__main__":
     project_path = os.path.abspath('..')
     print("Project path: {}".format(project_path))
     work_dir = os.path.join(project_path, 'data', args.dataset_name)
-    model_dir = "/data/huzhilei/PLM/model_parse_xfm_bart_large-v0_1_0"
+    model_dir = "/data/username/PLM/model_parse_xfm_bart_large-v0_1_0"
 
     get_data(work_dir)
     parse(model_dir, work_dir, batch_size=10, workers=1, worker_id=0, device=1)

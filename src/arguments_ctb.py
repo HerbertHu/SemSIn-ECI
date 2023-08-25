@@ -26,7 +26,7 @@ def get_parser():
     parser.add_argument("--pos_ratio", type=int, default=5)
 
     # pretrain language model path
-    parser.add_argument('--plm_path', type=str, default='/data/huzhilei/PLM/bert-base-uncased')
+    parser.add_argument('--plm_path', type=str, default='/data/username/PLM/bert-base-uncased')
 
     # ESC, event story line
     parser.add_argument('--sample_dir', type=str, default='data/Causal-TimeBank/sent_sample/')

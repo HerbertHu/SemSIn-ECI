@@ -25,7 +25,7 @@ def get_parser():
     parser.add_argument("--sample_ratio", type=float, default=0.1)
 
     # pretrain language model path
-    parser.add_argument('--plm_path', type=str, default='/data/huzhilei/PLM/bert-base-uncased')
+    parser.add_argument('--plm_path', type=str, default='/data/username/PLM/bert-base-uncased')
 
     # ESC, event story line
     parser.add_argument('--dataset_name', type=str, default='EventStoryLine_star')
