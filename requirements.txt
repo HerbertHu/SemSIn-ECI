@@ -1,0 +1,11 @@
+torch == 1.13.1
+transformers
+tqdm
+scikit-learn
+lxml
+amrlib == 0.7.1
+word2number
+unidecode
+beautifulsoup4
+scikit-learn
+pandas
